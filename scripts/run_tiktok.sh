@@ -1,0 +1,3 @@
+python Main.py --data tiktok --reg 0.00003 --ssl_reg 0.01 --epoch 100 --trans 1 --e_loss 0.1 --cl_method 1 --cross_feat_weight 0.6 --pretrain_epochs 15 --rl_lr 0.0001 \
+--gamma 0.95 --weight_diff_res 1.0 --weight_rl_res 1.0 --eps_clip 0.25 --ppo_epochs 5 --gpu '0' --latdim 64 --steps 5 --d_emb_size 10 --temp 0.5 --lr 0.001 \
+--gnn_layer 1 --ris_lambda 0.5 --ris_adj_lambda 0.2 --noise_scale 0.1 --noise_min 0.0001 --noise_max 0.02 --keepRate 0.1
